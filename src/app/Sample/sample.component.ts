@@ -14,7 +14,7 @@ export class SampleComponent {
 
   getReadableStatus(job) {
     let myName = "Alice";
-    return job.isRunning() ? "Running" : job.hasErrors() ? "Failed" : "Succeeded "; // Noncompliant 
+    return job.isRunning() ? "Running" : job.hasErrors() ? "Failed" : "Succeeded"; // Noncompliant 
   }
 
   enable() {
