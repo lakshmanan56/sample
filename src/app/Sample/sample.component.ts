@@ -14,6 +14,7 @@ export class SampleComponent {
 
   getReadableStatus(job) {
     let myName = "Alice";
+    console.log(myName);
     return job.isRunning() ? "Running" : job.hasErrors() ? "Failed" : "Succeeded"; // Noncompliant 
   }
 
